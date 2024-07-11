@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["ImpactLabel", "sans-serif"],
+        label: ["ImpactLabel", "sans-serif"],
       }
     },
   },
