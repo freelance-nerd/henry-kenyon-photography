@@ -47,58 +47,53 @@ function MainContent() {
   return(
     <div id="main" className="flex justify-center bg-verdant-bg">
       <div>
-      <div className="text-2xl font-label text-verdant-red justify-center m-5">
-        Website Under Construction! Watch this space for October 2024.
-      </div>
-      <div className="flex flex-row items-center justify-center">
-        <div className="mt-10">
-          <div className="rotate-12 mx-20">
-            <a href="https://lincolnshirefoodpartnership.org/2021/10/26/bread-and-roses/">
-              <img
-                src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/wraa.jpg"
-                className="w-96 hover:-rotate-12 bg-verdant-bg p-2 drop-shadow-xl"/>
-            </a>
-            <img className="h-32 ml-20 mt-5 -rotate-90" src="public/arrow.svg "/>
-            <p className="max-w-sm font-label">
-              First screened in Lincoln Cathedral with a live choir in 2021, my collaboration with the Greater Lincolnshire Food Partnership on small food systems was re-exhibited in Spring 2024 at the Museum of Lincolnshire Life.
-            </p>
-          </div>
-          <div className="-rotate-12 ml-16">
-            <a>
-              <img
-                src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/u15future.jpg"
-                className="hover:rotate-12 w-72 bg-verdant-bg p-2 drop-shadow-xl"/>
-            </a>
-            <img className="h-32 ml-20 mt-5 -rotate-90" src="public/arrow.svg "/>
-            <p className="max-w-sm font-label">
-              Since June 2023 I’ve been photographing with Unit 15 Creation Space, home of the Invisible Circus. This project is about the importance of space to make art in cities. More to come…
+        <div className="text-2xl font-label text-verdant-red justify-center m-5">
+          Website Under Construction! Watch this space for October 2024.
+        </div>
+        <div className="flex flex-row items-center justify-center">
+          <div className="mt-10">
+            <div className="rotate-12 mx-20">
+              <a href="https://lincolnshirefoodpartnership.org/2021/10/26/bread-and-roses/">
+                <img
+                  src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/wraa.jpg"
+                  className="w-96 hover:-rotate-12 bg-verdant-bg p-2 drop-shadow-xl"/>
+              </a>
+              <img className="h-32 ml-20 mt-5 -rotate-90" src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/87e487f5acaa4524b814b79a8af944bace33a2cb/public/arrow.svg"/>
+              <p className="max-w-sm font-label">
+                Bread & Roses - First screened in Lincoln Cathedral with a live choir in 2021, my collaboration with the Greater Lincolnshire Food Partnership on small food systems was re-exhibited in Spring 2024 at the Museum of Lincolnshire Life.
+              </p>
+            </div>
+            <div className="-rotate-12 ml-16">
+              <a>
+                <img
+                  src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/u15future.jpg"
+                  className="hover:rotate-12 w-72 bg-verdant-bg p-2 drop-shadow-xl"/>
+              </a>
+              <img className="h-32 ml-20 mt-5 -rotate-90" src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/87e487f5acaa4524b814b79a8af944bace33a2cb/public/arrow.svg"/>
+              <p className="max-w-sm font-label">
+                Since June 2023 I’ve been photographing with Unit 15 Creation Space, home of the Invisible Circus. This project is about the importance of space to make art in cities. More to come…
 
+              </p>
+            </div>
+          </div>
+          <div className="mx-12 mb-8 items-center justify-top">          
+            <p className = "max-w-sm font-label">
+              My biggest exhibition in years, LOTS&LOTS&LOTS is a head-first dive into my photography from 2018-19, a time when I was trying to reinvent for myself what photography meant to me.
             </p>
+            <p className = "max-w-sm font-label mt-2">
+              This has been on show at All Is Joy in Soho from the 15th-16th of July 2024.
+            </p>
+            <img className="h-32 ml-32 rotate-90" src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/87e487f5acaa4524b814b79a8af944bace33a2cb/public/arrow.svg"/>
+
+            <a href="https://me.com">
+              <img
+                src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/lots.jpg"
+                className="w-96 bg-verdant-bg p-2 drop-shadow-xl hover:rotate-12"/>
+            </a>
           </div>
         </div>
-        <div className="mx-12 mb-8 items-center justify-top">          
-          <p className = "max-w-sm font-label">
-            My biggest exhibition in years, LOTS&LOTS&LOTS is a head-first dive into my photography from 2018-19, a time when I was trying to reinvent for myself what photography meant to me.
-          </p>
-          <p className = "max-w-sm font-label mt-2">
-            This has been on show at All Is Joy in Soho from the 15th-16th of July 2024.
-          </p>
-          <img className="h-32 ml-32 rotate-90" src="public/arrow.svg "/>
-
-          <a href="https://me.com">
-            <img
-              src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/lots.jpg"
-              className="w-96 bg-verdant-bg p-2 drop-shadow-xl hover:rotate-12"/>
-          </a>
-        </div>
       </div>
-              </div>
     </div>
-    // <div className = "flex flex-col items-center justify-center lg:flex-row">
-    //   <img src = "https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/lots.jpg"/>
-    //   <img src = "https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/wraa.jpg"/>
-    //   <img src = "https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/u15future.jpg"/>
-    // </div>
   )
 }
 
