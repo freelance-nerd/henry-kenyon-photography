@@ -53,21 +53,21 @@ function MainContent() {
         <div className="flex flex-row items-center justify-center">
           <div className="mt-10">
             <div className="rotate-12 mx-20">
-              <a href="https://lincolnshirefoodpartnership.org/2021/10/26/bread-and-roses/">
+              <a href="https://lincolnshirefoodpartnership.org/2021/10/26/bread-and-roses/" target="_blank">
                 <img
                   src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/wraa.jpg"
-                  className="w-96 hover:-rotate-12 bg-verdant-bg p-2 drop-shadow-xl"/>
+                  className="w-96 hover:-rotate-12 bg-verdant-bg drop-shadow-xl"/>
               </a>
               <img className="h-32 ml-20 mt-5 -rotate-90" src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/87e487f5acaa4524b814b79a8af944bace33a2cb/public/arrow.svg"/>
               <p className="max-w-sm font-label">
-                Bread & Roses - First screened in Lincoln Cathedral with a live choir in 2021, my collaboration with the Greater Lincolnshire Food Partnership on small food systems was re-exhibited in Spring 2024 at the Museum of Lincolnshire Life.
+                Bread & Roses- First screened in Lincoln Cathedral with a live choir in 2021, my collaboration with the Greater Lincolnshire Food Partnership on small food systems was re-exhibited in Spring 2024 at the Museum of Lincolnshire Life.
               </p>
             </div>
             <div className="-rotate-12 ml-16">
               <a>
                 <img
                   src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/u15future.jpg"
-                  className="hover:rotate-12 w-72 bg-verdant-bg p-2 drop-shadow-xl"/>
+                  className="hover:rotate-12 w-72 bg-verdant-bg drop-shadow-xl"/>
               </a>
               <img className="h-32 ml-20 mt-5 -rotate-90" src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/87e487f5acaa4524b814b79a8af944bace33a2cb/public/arrow.svg"/>
               <p className="max-w-sm font-label">
@@ -85,10 +85,10 @@ function MainContent() {
             </p>
             <img className="h-32 ml-32 rotate-90" src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/87e487f5acaa4524b814b79a8af944bace33a2cb/public/arrow.svg"/>
 
-            <a href="https://me.com">
+            <a>
               <img
                 src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/lots.jpg"
-                className="w-96 bg-verdant-bg p-2 drop-shadow-xl hover:rotate-12"/>
+                className="w-96 bg-verdant-bg drop-shadow-xl hover:rotate-12"/>
             </a>
           </div>
         </div>
@@ -102,7 +102,7 @@ export function Footer() {
 	return (
 		<div id="footer" className="flex justify-center bg-verdant-bg">
       <div className="mx-auto my-auto justify-center content-center">
-        <div className="">
+        <div>
           <span className="px-4 py-4 font-label text-center text-verdant-fg">
             © 2024-2025 
             <a href="https://www.instagram.com/more_henry_more_photos/">
