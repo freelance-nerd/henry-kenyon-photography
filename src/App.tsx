@@ -58,7 +58,7 @@ function MainContent() {
                 src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/wraa.jpg"
                 className="w-96 hover:-rotate-12 bg-verdant-bg p-2 drop-shadow-xl"/>
             </a>
-            <img className="h-32 ml-20 mt-5 -rotate-90" src="src/assets/arrow.svg "/>
+            <img className="h-32 ml-20 mt-5 -rotate-90" src="public/arrow.svg "/>
             <p className="max-w-sm font-label">
               First screened in Lincoln Cathedral with a live choir in 2021, my collaboration with the Greater Lincolnshire Food Partnership on small food systems was re-exhibited in Spring 2024 at the Museum of Lincolnshire Life.
             </p>
@@ -69,7 +69,7 @@ function MainContent() {
                 src="https://raw.githubusercontent.com/freelance-nerd/henry-kenyon-photography/main/public/u15future.jpg"
                 className="hover:rotate-12 w-72 bg-verdant-bg p-2 drop-shadow-xl"/>
             </a>
-            <img className="h-32 ml-20 mt-5 -rotate-90" src="src/assets/arrow.svg "/>
+            <img className="h-32 ml-20 mt-5 -rotate-90" src="public/arrow.svg "/>
             <p className="max-w-sm font-label">
               Since June 2023 I’ve been photographing with Unit 15 Creation Space, home of the Invisible Circus. This project is about the importance of space to make art in cities. More to come…
 
@@ -83,7 +83,7 @@ function MainContent() {
           <p className = "max-w-sm font-label mt-2">
             This has been on show at All Is Joy in Soho from the 15th-16th of July 2024.
           </p>
-          <img className="h-32 ml-32 rotate-90" src="src/assets/arrow.svg "/>
+          <img className="h-32 ml-32 rotate-90" src="public/arrow.svg "/>
 
           <a href="https://me.com">
             <img
