@@ -663,6 +663,16 @@ video {
        columns: 2;
 }
 
+.columns-4 {
+  -moz-columns: 4;
+       columns: 4;
+}
+
+.columns-1 {
+  -moz-columns: 1;
+       columns: 1;
+}
+
 .content-center {
   align-content: center;
 }

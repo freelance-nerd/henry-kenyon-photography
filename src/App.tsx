@@ -4,11 +4,11 @@ function App() {
     <>
       <div className="max-w-screen-md">
         <Navbar/>
-        <div className = "container columns-2 content-center">
-            <img className="rotate-12 hover:rotate-0 m-10 shadow-2xl" src = "src/assets/wraa.jpg"/>
-            <img className="rotate-6 hover:rotate-0 m-10 shadow-2xl" src = "src/assets/u15future.jpg"/>
-            <a link="google.com">
-              <img className="-rotate-12 hover:rotate-12 m-10 shadow 2xl" src = "src/assets/lots.jpg"/>
+        <div>
+            <img className="rotate-12 hover:rotate-0 m-10 shadow-2xl" src = "wraa.jpg"/>
+            <img className="rotate-6 hover:rotate-0 m-10 shadow-2xl" src = "u15future.jpg"/>
+            <a target="google.com">
+              <img className="-rotate-12 hover:rotate-12 m-10 shadow 2xl" src = "lots.jpg"/>
             </a>
         </div>
         <Footer/>
