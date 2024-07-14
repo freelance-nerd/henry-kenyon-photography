@@ -10,6 +10,7 @@ export default {
 				"verdant-blue": "#6e95bd",
 				"verdant-red": "#9f1212",
 				"verdant-bg": "#faf2f2",
+				"verdant-bg-darker": "#eae2e2",
 				"verdant-fg": "#402121",
 			}
     },
